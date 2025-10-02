@@ -180,3 +180,17 @@ footer {
   background: #fff;
 }
 .field input:focus, .field textarea:focus { outline: 2px solid var(--accent-2); }
+
+/* Tag cloud */
+.tags { display: flex; flex-wrap: wrap; gap: .5rem; margin: .25rem 0 1rem; }
+.tag {
+  display: inline-block;
+  padding: .3rem .55rem;
+  border: 1px solid #dcdcdc;
+  border-radius: 999px;
+  background: #fff;
+  font-size: .9rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
