@@ -1,1 +1,125 @@
-# ecrawle1.github.io
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Elizabeth Marie Crawley, Educator and Mentor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Elizabeth M. Crawley's Professional Portfolio: education, work experience, volunteer work, and philosophy.">
+  <link rel="stylesheet" href="mystylesheet.css">
+</head>
+<body>
+  <header>
+    <h1>Elizabeth Marie Crawley</h1>
+  </header>
+
+    <div class="wrap">
+    <nav aria-label="Site">
+      <p class="nav-title">Navigate</p>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" aria-current="page">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills &amp; Tools</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="community.html">Community &amp; Mentorship</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="intro">
+        <img src="images/Liz Crawley.png" alt="Portrait of Elizabeth M. Crawley">
+        <div>
+          <p class="quote">
+            “Tell me and I forget. Teach me and I remember. Involve me and I learn.”
+            <br>— Benjamin Franklin
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <p>I am a Data Specialist at Kent State University’s Office of Scholarships and Financial Aid, where I develop and optimize SQL reports, support compliance processes, and collaborate with IT and cross-functional teams to 	 	streamline student aid operations. My work focuses on turning complex data into practical insights that improve both efficiency and student experience.</p>
+	<p>Currently, I am pursuing a Master’s degree in Business Analytics at Kent State. This program builds on my strong background in data management and reporting while expanding my skills in predictive modeling, visualization, and 	decision science.</p>
+	<p>Outside of my professional role, I enjoy mentoring students through robotics programs such as FIRST LEGO League and FIRST Tech Challenge, where creativity and problem-solving meet teamwork and technology. My lifelong 	interests in nature, science, and storytelling continue to shape the way I approach challenges—combining evidence, imagination, and exploration.</p>
+      </section>
+
+      <section>
+        <h2>Educational Background</h2>
+        <div class="two-col">
+          <div>
+	    <p><strong>Kent State University</strong> – M.S. Business Analytics (in progress), 2025</p>
+	    <p><strong>Kent State University</strong> – Graduate Study, Evaluation & Measurement, 2015–2016 (9 credit hours)</p>
+	    <p><strong>Kent State University</strong> – B.A. Communication Studies, 2012 | GPA 3.79</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Work Experience</h2>
+	<p><b>Data Specialist</b></p>
+	<p>Kent State University – Office of Scholarships & Financial Aid | 2022–Present</p>
+	<ul>
+	   <li>Develop and optimize Oracle SQL queries and Cognos reports to support compliance, aid packaging, and enrollment management.</li>
+	   <li>Design, test, and implement database-driven solutions within Ellucian Banner 9 ERP and NextGen Dynamic Forms, improving data accuracy and automation of student financial aid processes.</li>
+	   <li>Collaborate with IT, external stakeholders, and cross-functional teams to translate business requirements into technical solutions aligned with IT security and university policies.</li>
+	   <li>Maintain and support applications for federal and state aid programs (Pell, SEOG, OCOG, TEACH), ensuring integrity of student and financial data.</li>
+	   <li>Create technical documentation and SOPs to streamline operations and support adoption of new tools.</li>
+	   <li>Apply FERPA and security protocols to all processes, ensuring compliance with federal and institutional regulations.</li>
+	</ul>
+
+        <p><b>Lead Secretary, Library & Media Center</b></p>
+        <p>Kent City School District | 2021-2022</p>
+	<ul>
+	   <li>Created and maintained student assignment reports and asset-tracking databases for Chromebooks, library books, and classroom technology.</li>
+	   <li>Supervised student employees and managed circulation and technology resources.</li>
+	</ul>
+
+	<p><b>Part Time Assistant Payroll Clerk</b></p>
+	<p>Kent City School District | 2019–2021</p>
+	<ul>
+	   <li>Processed payroll records, benefits balances, and attendance data for classified and substitute employees.</li>
+	   <li>Generated reports for administrators on absence accrual and benefit balances.</li>
+	</ul>
+
+	<p><b>Administrative Clerk</b></p>
+	<p>Kent State University – Dept. of Political Science | 2006–2016</p>
+	<ul>
+	   <li>Developed and maintained reporting processes, batch file transfers, and enrollment databases.</li>
+	   <li>Supported course scheduling, classroom scheduling, and technology reservations.</li>
+	   <li>Managed department websites (Drupal, WordPress) and collaborated with marketing on newsletters, brochures, and online presence.</li>
+	   <li>Supported graduate and undergraduate program operations with data, reporting, and communications.</li>
+	</ul>
+
+	<p><b>Employee Benefits Administrator</b></p>
+	<p>Sterling Jewelers, Inc. | 2002–2006</p>
+	<ul>
+	   <li>Developed and maintained MS Access databases to track employee leaves of absence.</li>
+	   <li>Produced reports to identify and resolve data errors.</li>
+	   <li>Delivered new employee benefits orientation sessions and provided employee support for health insurance and leave policies.</li>
+	</ul>		
+      </section>
+
+      <section>
+        <h2>Volunteer Work, Activities, Awards</h2>
+        <p><strong>Customer Churn Prediction (ABC Wireless, 2025):</strong> Built predictive models (logistic regression, random forest) in R to identify at-risk customers for targeted retention.</p>
+        <p><strong>Dynamic Forms SOP Development (KSU, 2024):</strong> Authored SOPs for NextGen Dynamic Forms, enabling staff to create and maintain workflows for financial aid packaging.— Kent State University</p>
+        <p><strong>FIRST Robotics Coach:</strong> Mentor and curriculum developer for FLL/FTC teams, teaching Python programming, robotics design, and problem-solving to middle and high school students.</p>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>Copyright © 2008–2025 Elizabeth Marie Crawley</p>
+    <p>Last updated: <span id="lastUpdated"></span></p>
+  </footer>
+
+  <script>
+    // Show last modified date automatically
+    (function(){
+      var d = new Date(document.lastModified);
+      document.getElementById('lastUpdated').textContent = d.toLocaleString();
+    })();
+  </script>
+</body>
+</html>
