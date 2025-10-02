@@ -4,7 +4,7 @@ A simple, fast, and accessible personal website to showcase projects, skills, an
 
 **Live site:**  
 - User site: https://ecrawle1.github.io/  
-- or Project site: https://ecrawle1.github.io/REPO_NAME/
+- or Project site: https://ecrawle1.github.io/ecrawle1/
 
 ---
 
