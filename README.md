@@ -1,7 +1,17 @@
-cd your-site-folder
-git init
-git add .
-git commit -m "Initial site"
-git branch -M main
-git remote add origin https://github.com/yourusername/REPO_NAME.git
-git push -u origin main
+# Elizabeth Marie Crawley — Portfolio
+
+A simple, fast, and accessible personal website to showcase projects, skills, and experience in higher-ed data, reporting, and application support.
+
+**Live site:**  
+- User site: https://YOUR_USERNAME.github.io/  
+- or Project site: https://YOUR_USERNAME.github.io/REPO_NAME/
+
+---
+
+## ✨ What’s inside
+
+- Static **HTML/CSS** + a tiny bit of vanilla JS (no build tools, no frameworks)
+- Pages: `Home`, `About`, `Projects`, `Skills & Tools`, `Experience`, `Education`, `Community`, `Contact`
+- Shared stylesheet at `css/style.css`
+- De-identified case studies and screenshots
+
