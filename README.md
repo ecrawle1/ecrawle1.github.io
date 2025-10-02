@@ -3,8 +3,8 @@
 A simple, fast, and accessible personal website to showcase projects, skills, and experience in higher-ed data, reporting, and application support.
 
 **Live site:**  
-- User site: https://YOUR_USERNAME.github.io/  
-- or Project site: https://YOUR_USERNAME.github.io/REPO_NAME/
+- User site: https://ecrawle1.github.io/  
+- or Project site: https://ecrawle1.github.io/REPO_NAME/
 
 ---
 
