@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Skills & Tools • Elizabeth Marie Crawley</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Elizabeth M. Crawley — core technical skills, tools, and practices across SQL, reporting, enterprise applications, and analytics.">
+  <link rel="stylesheet" href="mystylesheet.css">
+</head>
+<body>
+  <header>
+    <h1>Skills &amp; Tools</h1>
+  </header>
+
+  <div class="wrap">
+    <nav aria-label="Site">
+      <p class="nav-title">Navigate</p>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html" aria-current="page">Skills &amp; Tools</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="community.html">Community &amp; Mentorship</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="intro">
+        <img src="images/Liz Crawley.png" alt="Portrait of Elizabeth M. Crawley">
+        <div>
+          <p class="quote">Practical, reliable solutions—clear requirements, accurate data, collaborative delivery.</p>
+          <p style="margin:.4rem 0 0;">
+            <a class="button" href="https://www.linkedin.com/in/elizabeth-crawley-45076017/" target="_blank" rel="noopener">LinkedIn</a>
+            <!-- Optional: <a class="button" href="#" target="_blank" rel="noopener">GitHub</a> -->
+          </p>
+        </div>
+      </section>
+
+      <!-- Top Skills / Tags -->
+      <section>
+        <h2>Top Skills</h2>
+        <div class="tags">
+          <span class="tag">Oracle SQL</span>
+          <span class="tag">Cognos Reporting</span>
+          <span class="tag">Ellucian Banner 9</span>
+          <span class="tag">NextGen Dynamic Forms</span>
+          <span class="tag">Data Validation</span>
+          <span class="tag">Process Automation</span>
+          <span class="tag">SOP &amp; Documentation</span>
+          <span class="tag">FERPA &amp; Compliance</span>
+          <span class="tag">R (analysis/visualization)</span>
+          <span class="tag">Stakeholder Collaboration</span>
+        </div>
+      </section>
+
+      <!-- Core Competencies (cards) -->
+      <section aria-labelledby="competencies">
+        <h2 id="competencies">Core Competencies</h2>
+        <div class="cards" role="list">
+          <article class="card" role="listitem">
+            <h3>Databases &amp; SQL</h3>
+            <ul>
+              <li>Oracle SQL (CTEs, window functions, parameterized queries, explain plans).</li>
+              <li>Data integrity checks and audit queries for federal/state aid programs (Pell, SEOG, OCOG, TEACH).</li>
+              <li>Performance-minded query design for reports and batch workflows.</li>
+            </ul>
+          </article>
+
+          <article class="card" role="listitem">
+            <h3>Reporting &amp; Analytics</h3>
+            <ul>
+              <li>IBM Cognos report authoring: prompts, filters, layouts, schedules.</li>
+              <li>R for analysis/visualization (tidyverse, ggplot2); Intro Power BI for dashboards.</li>
+              <li>Metric definitions and documentation for consistent, reproducible outputs.</li>
+            </ul>
+          </article>
+
+          <article class="card" role="listitem">
+            <h3>Enterprise Applications</h3>
+            <ul>
+              <li>Ellucian Banner 9: functional–technical collaboration, data flows, validations.</li>
+              <li>NextGen Dynamic Forms: routing, approvals, validations, reusable patterns.</li>
+              <li>Process design emphasizing accuracy, security, and audit readiness.</li>
+            </ul>
+          </article>
+
+          <article class="card" role="listitem">
+            <h3>Programming &amp; Scripting</h3>
+            <ul>
+              <li>R for modeling/analysis; Python fundamentals for automation &amp; teaching.</li>
+              <li>Version control habits and reproducible workflows.</li>
+              <li>Light data wrangling and CSV/Excel ingestion for reporting pipelines.</li>
+            </ul>
+          </article>
+
+          <article class="card" role="listitem">
+            <h3>Collaboration &amp; Delivery</h3>
+            <ul>
+              <li>Translating business requirements into secure, practical technical solutions.</li>
+              <li>Cross-functional teamwork with IT, compliance, and student services.</li>
+              <li>SOPs, onboarding guides, and training to drive tool adoption.</li>
+            </ul>
+          </article>
+
+          <article class="card" role="listitem">
+            <h3>Governance &amp; Security</h3>
+            <ul>
+              <li>FERPA-aligned data practices and role-appropriate access.</li>
+              <li>Change control, exception handling, and audit trails.</li>
+              <li>PII safeguards and documentation discipline.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- Selected Highlights -->
+      <section>
+        <h2>Selected Highlights</h2>
+        <ul>
+          <li>Reduced manual reconciliation by tuning Oracle SQL and standardizing Cognos outputs.</li>
+          <li>Cut onboarding time via Dynamic Forms SOPs and reusable workflow patterns.</li>
+          <li>Delivered predictive models in R to illustrate segmentation and retention ideas.</li>
+        </ul>
+        <!-- Optional: link to a PDF skills matrix -->
+        <!-- <p><a class="button" href="documents/skills-matrix.pdf">Download Skills Matrix (PDF)</a></p> -->
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>Copyright © 2008–2025 Elizabeth Marie Crawley</p>
+    <p>Last updated: <span id="lastUpdated"></span></p>
+  </footer>
+
+  <script>
+    (function(){
+      var d = new Date(document.lastModified);
+      document.getElementById('lastUpdated').textContent = d.toLocaleString();
+    })();
+  </script>
+</body>
+</html>

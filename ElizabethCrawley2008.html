@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Elizabeth Marie Crawley, Educator and Mentor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mrs. Elizabeth M. Crawley's Professional Portfolio: education, work experience, volunteer work, and philosophy.">
+  <style>
+    :root{
+      --bg: #f7efe9;
+      --ink: #4b2e2e;
+      --accent: #0b3d91;
+      --accent-2: #7a3b8f;
+      --panel: #ffffff;
+      --nav-bg: #e9efe3;
+    }
+    /* Basic Reset */
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-serif, Georgia, "Times New Roman", Times, serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+    header {
+      padding: 2rem 1rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: clamp(1.8rem, 2.5vw + 1rem, 3rem);
+      font-weight: 700;
+    }
+    .wrap {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 1rem;
+      align-items: start;
+      padding: 0 1rem 2rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    nav {
+      background: var(--nav-bg);
+      border-radius: 14px;
+      padding: 1rem;
+      position: sticky;
+      top: 1rem;
+    }
+    .nav-title {
+      margin: 0 0 .5rem 0;
+      font-size: 1.1rem;
+      color: var(--accent);
+      font-weight: 700;
+      letter-spacing: .02em;
+    }
+    .nav-list { list-style: none; padding: 0; margin: 0; }
+    .nav-list li { margin-bottom: .5rem; }
+    .nav-list a {
+      display: block;
+      text-decoration: none;
+      background: var(--panel);
+      padding: .65rem .8rem;
+      border-radius: 10px;
+      border: 1px solid #dcdcdc;
+      font-weight: 600;
+      color: var(--accent);
+    }
+    .nav-list a:hover { outline: 2px solid var(--accent-2); }
+    main {
+      background: var(--panel);
+      border-radius: 14px;
+      padding: 1.2rem;
+      border: 1px solid #e5e5e5;
+    }
+    .intro {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      align-items: center;
+    }
+    .intro img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      border: 1px solid #ddd;
+    }
+    .quote {
+      text-align: center;
+      font-style: italic;
+      color: var(--accent);
+      margin: .25rem 0 0;
+    }
+    h2 {
+      margin-top: 1.25rem;
+      color: var(--accent);
+      border-bottom: 2px solid #ececec;
+      padding-bottom: .25rem;
+    }
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    footer {
+      text-align: center;
+      font-size: .9rem;
+      color: #6c5858;
+      padding: 2rem 1rem;
+    }
+    @media (max-width: 900px) {
+      .wrap { grid-template-columns: 1fr; }
+      nav { position: static; }
+      .intro { grid-template-columns: 1fr; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mrs. Elizabeth Marie Crawley</h1>
+  </header>
+
+  <div class="wrap">
+    <nav aria-label="Site">
+      <p class="nav-title">Navigate</p>
+      <ul class="nav-list">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="learners.htm">Learners</a></li>
+        <li><a href="diversity.htm">Diversity</a></li>
+        <li><a href="technology.htm">Technology</a></li>
+        <li><a href="profession.htm">Profession</a></li>
+        <li><a href="pedagogy.htm">Pedagogy</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="intro">
+        <img src="images/headshot.png" alt="Portrait of Elizabeth M. Crawley">
+        <div>
+          <p class="quote">
+            “Minds are like parachutes. They only function when they are open.”
+            <br>— Sir James Dewar (1877–1925)
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <p>
+          As a graduate of the Occupational Workplace Environment (OWE) program offered
+          through the Four Cities Compact (Barberton, Norton, Copley, and Wadsworth schools),
+          I graduated in 2000 as a member of the National Technical and Vocational Honor Society.
+          The program enforced a strong sense of discipline and determination for its students,
+          and I am proud to be one of its graduates.
+        </p>
+        <p>
+          As a college student, I pursued a Middle Childhood Education degree with a focus in
+          Science and Language Arts. My research and teaching interests include astronomy and
+          fictional literature. I hope to take students on an adventure through uncharted territory
+          using imagination and a discovery of the truth and evidence that surrounds us.
+        </p>
+      </section>
+
+      <section>
+        <h2>Educational Background</h2>
+        <div class="two-col">
+          <div>
+            <p><strong>Wadsworth High School</strong> — Wadsworth, OH (2000)</p>
+            <p><strong>University of Akron</strong> — Akron, OH (2001–2006)</p>
+            <p><strong>Kent State University</strong> — Kent, OH (2006–Present)</p>
+          </div>
+          <div>
+            <p><strong>College Standing</strong>: Kent State University Sophomore</p>
+            <p><strong>Major</strong>: Bachelor of Science in Education (Kent Campus)</p>
+            <p><strong>Department</strong>: Middle Childhood Education, Teaching Leadership and Curriculum Studies</p>
+            <p><strong>Concentration</strong>: Language Arts / Science</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Work Experience</h2>
+        <p><strong>Snelling Personnel Services</strong> — Light Industrial Employment Specialist (Recruiter) • 1998–2000</p>
+        <p><strong>Land Rover of Akron</strong> — Service Assistant • 2000–2001; Service Manager • 2001</p>
+        <p><strong>Sterling Jewelers Inc.</strong> — Human Resources, Benefits Specialist • 2002–2006</p>
+        <p><strong>Kent State University</strong> — Department of Political Science, Administrative Clerk • 2006–Present</p>
+      </section>
+
+      <section>
+        <h2>Volunteer Work, Activities, Awards</h2>
+        <p><strong>Public Notary</strong>, Portage County — Commission expires 8/20/2011</p>
+        <p><strong>University Schedulers Committee</strong> — Kent State University</p>
+        <p><strong>Fundraiser Participant (2007)</strong> — Tots Learning Center, Ravenna, OH</p>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>Copyright © 2008–2025 Elizabeth Marie Crawley</p>
+    <p>Last updated: <span id="lastUpdated"></span></p>
+  </footer>
+
+  <script>
+    // Show last modified date automatically
+    (function(){
+      var d = new Date(document.lastModified);
+      document.getElementById('lastUpdated').textContent = d.toLocaleString();
+    })();
+  </script>
+</body>
+</html>

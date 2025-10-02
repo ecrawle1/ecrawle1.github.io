@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Projects • Elizabeth Marie Crawley</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Selected projects by Elizabeth M. Crawley: data, analytics, and application development case studies.">
+  <link rel="stylesheet" href="mystylesheet.css">
+</head>
+<body>
+  <header>
+    <h1>Projects</h1>
+  </header>
+
+  <div class="wrap">
+    <nav aria-label="Site">
+      <p class="nav-title">Navigate</p>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a href="skills.html">Skills &amp; Tools</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="community.html">Community &amp; Mentorship</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="intro">
+        <img src="images/Liz Crawley.png" alt="Portrait of Elizabeth M. Crawley">
+        <div>
+          <p class="quote">
+            Selected case studies from higher-ed operations, analytics, and process automation.  
+            (All examples are summarized and de-identified.)
+          </p>
+        </div>
+      </section>
+
+      <section aria-labelledby="proj-list-heading">
+        <h2 id="proj-list-heading">Case Studies</h2>
+
+        <div class="cards" role="list">
+          <!-- Project 1 -->
+          <article class="card" role="listitem">
+            <figure>
+              <img src="images/projects/churn-dashboard.png" alt="Screenshot mock-up of a churn dashboard with risk segments and KPIs">
+            </figure>
+            <h3>Customer Churn Prediction (ABC Wireless)</h3>
+            <p class="summary">Built and compared predictive models to identify at-risk customers and target retention offers.</p>
+
+            <dl class="meta">
+              <dt>Stack</dt><dd>R (tidyverse, caret), ggplot2</dd>
+              <dt>Role</dt><dd>Modeling, feature engineering, evaluation</dd>
+              <dt>Outcome</dt><dd>Lifted precision for top decile by 22%; delivered actionable retention segments.</dd>
+            </dl>
+
+            <ul class="highlights">
+              <li>Logistic regression vs. random forest with cross-validation.</li>
+              <li>Calibration and ROC analysis; business-friendly thresholds.</li>
+              <li>Reproducible report with visuals and recommendations.</li>
+            </ul>
+
+            <!-- Optional links (replace # with real URLs or remove) -->
+            <p class="cta">
+              <a class="button" href="#" target="_blank" rel="noopener">Case Study</a>
+              <a class="button" href="#" target="_blank" rel="noopener">Repo</a>
+            </p>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="card" role="listitem">
+            <figure>
+              <img src="images/projects/forms-workflow.png" alt="Workflow diagram mock-up showing form stages and approvals">
+            </figure>
+            <h3>Dynamic Forms SOP &amp; Workflow Library (KSU)</h3>
+            <p class="summary">Standardized NextGen Dynamic Forms processes to speed up packaging and reduce errors.</p>
+
+            <dl class="meta">
+              <dt>Stack</dt><dd>NextGen Dynamic Forms, Banner 9 (Oracle)</dd>
+              <dt>Role</dt><dd>System design, documentation, training</dd>
+              <dt>Outcome</dt><dd>Cut onboarding time for staff; improved data quality and audit readiness.</dd>
+            </dl>
+
+            <ul class="highlights">
+              <li>Reusable patterns for approvals, routing, and validations.</li>
+              <li>Clear SOPs with screenshots; versioned updates.</li>
+              <li>Alignments with FERPA and institutional security policy.</li>
+            </ul>
+
+            <p class="cta">
+              <a class="button" href="#" target="_blank" rel="noopener">Read SOP Excerpt</a>
+            </p>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="card" role="listitem">
+            <figure>
+              <img src="images/projects/sql-cognos.png" alt="Cognos report mock-up showing filters and tabular results">
+            </figure>
+            <h3>Compliance &amp; Packaging Reports</h3>
+            <p class="summary">Revamped Oracle SQL and Cognos reports for Pell, SEOG, OCOG, and TEACH programs.</p>
+
+            <dl class="meta">
+              <dt>Stack</dt><dd>Oracle SQL, Cognos, Banner 9</dd>
+              <dt>Role</dt><dd>Report authoring, query optimization</dd>
+              <dt>Outcome</dt><dd>Faster run times, consistent outputs, and less manual reconciliation.</dd>
+            </dl>
+
+            <ul class="highlights">
+              <li>Query tuning with indexes, CTEs, and explain plans.</li>
+              <li>Parameterized reports for staff workflows.</li>
+              <li>Documentation for reproducibility and handoffs.</li>
+            </ul>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="card" role="listitem">
+            <figure>
+              <img src="images/projects/banner-automation.png" alt="Flow illustration of nightly data checks and notifications">
+            </figure>
+            <h3>Banner Data Validations &amp; Automations</h3>
+            <p class="summary">Automated data checks and routine tasks to reduce manual effort and improve integrity.</p>
+
+            <dl class="meta">
+              <dt>Stack</dt><dd>Oracle SQL, Banner 9; (optional) Python for checks</dd>
+              <dt>Role</dt><dd>Design, implementation, SOPs</dd>
+              <dt>Outcome</dt><dd>Reduced exception handling time; fewer downstream errors.</dd>
+            </dl>
+
+            <ul class="highlights">
+              <li>Nightly validations with exception queues.</li>
+              <li>Actionable notifications for functional teams.</li>
+              <li>Audit trails and rollback procedures.</li>
+            </ul>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="card" role="listitem">
+            <figure>
+              <img src="images/projects/robotics-mentor.png" alt="Photo mock-up of students programming a robot at a table">
+            </figure>
+            <h3>Robotics Mentorship (FLL/FTC)</h3>
+            <p class="summary">Curriculum and mentoring for robotics teams—coding, sensors, and teamwork.</p>
+
+            <dl class="meta">
+              <dt>Stack</dt><dd>Python, EV3/FTC toolchains</dd>
+              <dt>Role</dt><dd>Coach, curriculum designer</dd>
+              <dt>Outcome</dt><dd>Student projects showcased at competitions; increased participation.</dd>
+            </dl>
+
+            <ul class="highlights">
+              <li>Hands-on challenges tied to core STEM concepts.</li>
+              <li>Version control basics and documentation habits.</li>
+              <li>Inclusive team norms and peer review.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>Copyright © 2008–2025 Elizabeth Marie Crawley</p>
+    <p>Last updated: <span id="lastUpdated"></span></p>
+  </footer>
+
+  <script>
+    (function(){
+      var d = new Date(document.lastModified);
+      document.getElementById('lastUpdated').textContent = d.toLocaleString();
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Education • Elizabeth Marie Crawley</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Education and professional development of Elizabeth M. Crawley.">
+  <link rel="stylesheet" href="mystylesheet.css">
+</head>
+<body>
+  <header>
+    <h1>Education</h1>
+  </header>
+
+  <div class="wrap">
+    <nav aria-label="Site">
+      <p class="nav-title">Navigate</p>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills &amp; Tools</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="education.html" aria-current="page">Education</a></li>
+        <li><a href="community.html">Community &amp; Mentorship</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="intro">
+        <img src="images/Liz Crawley.png" alt="Portrait of Elizabeth M. Crawley">
+        <div>
+          <p class="quote">
+            Learning is a working style—curiosity, rigor, and sharing what works.
+          </p>
+        </div>
+      </section>
+
+      <!-- Degrees & Studies -->
+      <section aria-labelledby="degrees-heading">
+        <h2 id="degrees-heading">Degrees &amp; Studies</h2>
+
+        <div class="cards" role="list">
+          <article class="card" role="listitem">
+            <h3>Kent State University</h3>
+            <p class="subhead"><strong>M.S., Business Analytics</strong> (in progress), <time datetime="2025">2025</time></p>
+            <ul>
+              <li>Focus: predictive modeling, data visualization, decision analytics, database systems &amp; SQL.</li>
+              <li>Applied coursework tied to enterprise reporting and process improvement.</li>
+            </ul>
+          </article>
+
+          <article class="card" role="listitem">
+            <h3>Kent State University</h3>
+            <p class="subhead"><strong>Graduate Study, Evaluation &amp; Measurement</strong>, <time datetime="2015">2015</time>–<time datetime="2016">2016</time> (9 credit hours)</p>
+            <ul>
+              <li>Emphasis on assessment fundamentals and research-informed decision making.</li>
+            </ul>
+          </article>
+
+          <article class="card" role="listitem">
+            <h3>Kent State University</h3>
+            <p class="subhead"><strong>B.A., Communication Studies</strong>, <time datetime="2012">2012</time> • GPA 3.79</p>
+            <ul>
+              <li>Strengths in professional communication, collaboration, and stakeholder engagement.</li>
+            </ul>
+          </article>
+
+          <article class="card" role="listitem">
+            <h3>Four Cities Compact (Wadsworth High School)</h3>
+            <p class="subhead"><strong>Occupational Workplace Environment (OWE) Program</strong>, <time datetime="2000">2000</time></p>
+            <ul>
+              <li>National Technical &amp; Vocational Honor Society; foundations in discipline and applied learning.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- Coursework Highlights -->
+      <section aria-labelledby="coursework-heading">
+        <h2 id="coursework-heading">Coursework Highlights</h2>
+        <div class="cards" role="list">
+          <article class="card" role="listitem">
+            <h3>Business Analytics (M.S.)</h3>
+            <ul>
+              <li>Predictive Modeling: regression &amp; classification, model evaluation.</li>
+              <li>Visualization &amp; Reporting: R/ggplot2; introductory Power BI.</li>
+              <li>Database Systems &amp; SQL: data modeling, queries, performance basics.</li>
+              <li>Decision Analytics: metrics, tradeoffs, and communicating impact.</li>
+            </ul>
+          </article>
+
+          <article class="card" role="listitem">
+            <h3>Evaluation &amp; Measurement</h3>
+            <ul>
+              <li>Assessment and evidence use for process improvement.</li>
+              <li>Foundations that inform SOPs, validations, and reporting clarity.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- Certifications & Training -->
+      <section aria-labelledby="training-heading">
+        <h2 id="training-heading">Certifications &amp; Professional Training</h2>
+        <div class="cards" role="list">
+          <article class="card" role="listitem">
+            <h3>Enterprise &amp; Compliance</h3>
+            <ul>
+              <li>FERPA and institutional data-handling standards (ongoing).</li>
+              <li>Change control, audit readiness, and documentation practices.</li>
+            </ul>
+          </article>
+
+          <article class="card" role="listitem">
+            <h3>Systems &amp; Reporting</h3>
+            <ul>
+              <li>Ellucian Banner 9 functional–technical collaboration workshops.</li>
+              <li>NextGen Dynamic Forms builder/admin training (routing, validations).</li>
+              <li>IBM Cognos report authoring (prompts, schedules, layout standards).</li>
+            </ul>
+          </article>
+
+          <article class="card" role="listitem">
+            <h3>Analytics &amp; Programming</h3>
+            <ul>
+              <li>R for analysis and visualization; Python fundamentals for automation.</li>
+              <li>Version control &amp; reproducible workflows.</li>
+            </ul>
+          </article>
+        </div>
+        <!-- Optional download links -->
+        <!-- <p><a class="button" href="documents/coursework-summary.pdf">Download Coursework Summary (PDF)</a></p> -->
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>Copyright © 2008–2025 Elizabeth Marie Crawley</p>
+    <p>Last updated: <span id="lastUpdated"></span></p>
+  </footer>
+
+  <script>
+    (function(){
+      var d = new Date(document.lastModified);
+      document.getElementById('lastUpdated').textContent = d.toLocaleString();
+    })();
+  </script>
+</body>
+</html>

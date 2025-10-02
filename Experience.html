@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Experience • Elizabeth Marie Crawley</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Professional experience of Elizabeth M. Crawley: higher-ed data, reporting, and application support.">
+  <link rel="stylesheet" href="mystylesheet.css">
+</head>
+<body>
+  <header>
+    <h1>Experience</h1>
+  </header>
+
+  <div class="wrap">
+    <nav aria-label="Site">
+      <p class="nav-title">Navigate</p>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills &amp; Tools</a></li>
+        <li><a href="experience.html" aria-current="page">Experience</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="community.html">Community &amp; Mentorship</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="intro">
+        <img src="images/Liz Crawley.png" alt="Portrait of Elizabeth M. Crawley">
+        <div>
+          <p class="quote">
+            Work history &amp; impact across higher-ed data, reporting, and enterprise systems.
+          </p>
+          <!-- Optional: <p><a class="button" href="documents/resume.pdf">Download Résumé (PDF)</a></p> -->
+        </div>
+      </section>
+
+      <section aria-labelledby="roles-heading">
+        <h2 id="roles-heading">Roles</h2>
+
+        <div class="cards" role="list">
+          <!-- Data Specialist -->
+          <article class="card role" role="listitem">
+            <header>
+              <h3>Data Specialist</h3>
+              <p class="subhead"><strong>Kent State University – Office of Scholarships &amp; Financial Aid</strong> • <time datetime="2022">2022</time>–Present</p>
+            </header>
+            <ul>
+              <li>Develop and optimize Oracle SQL queries and Cognos reports to support compliance, aid packaging, and enrollment management.</li>
+              <li>Design, test, and implement database-driven solutions within Ellucian Banner 9 ERP and NextGen Dynamic Forms, improving data accuracy and automation of student financial aid processes.</li>
+              <li>Collaborate with IT, external stakeholders, and cross-functional teams to translate business requirements into technical solutions aligned with IT security and university policies.</li>
+              <li>Maintain and support applications for federal and state aid programs (Pell, SEOG, OCOG, TEACH), ensuring integrity of student and financial data.</li>
+              <li>Create technical documentation and SOPs to streamline operations and support adoption of new tools.</li>
+              <li>Apply FERPA and security protocols to all processes, ensuring compliance with federal and institutional regulations.</li>
+            </ul>
+          </article>
+
+          <!-- Lead Secretary -->
+          <article class="card role" role="listitem">
+            <header>
+              <h3>Lead Secretary, Library &amp; Media Center</h3>
+              <p class="subhead"><strong>Kent City School District</strong> • <time datetime="2021">2021</time>–<time datetime="2022">2022</time></p>
+            </header>
+            <ul>
+              <li>Created and maintained student assignment reports and asset-tracking databases for Chromebooks, library books, and classroom technology.</li>
+              <li>Supervised student employees and managed circulation and technology resources.</li>
+            </ul>
+          </article>
+
+          <!-- Assistant Payroll Clerk -->
+          <article class="card role" role="listitem">
+            <header>
+              <h3>Part Time Assistant Payroll Clerk</h3>
+              <p class="subhead"><strong>Kent City School District</strong> • <time datetime="2019">2019</time>–<time datetime="2021">2021</time></p>
+            </header>
+            <ul>
+              <li>Processed payroll records, benefits balances, and attendance data for classified and substitute employees.</li>
+              <li>Generated reports for administrators on absence accrual and benefit balances.</li>
+            </ul>
+          </article>
+
+          <!-- Administrative Clerk -->
+          <article class="card role" role="listitem">
+            <header>
+              <h3>Administrative Clerk</h3>
+              <p class="subhead"><strong>Kent State University – Dept. of Political Science</strong> • <time datetime="2006">2006</time>–<time datetime="2016">2016</time></p>
+            </header>
+            <ul>
+              <li>Developed and maintained reporting processes, batch file transfers, and enrollment databases.</li>
+              <li>Supported course scheduling, classroom scheduling, and technology reservations.</li>
+              <li>Managed department websites (Drupal, WordPress) and collaborated with marketing on newsletters, brochures, and online presence.</li>
+              <li>Supported graduate and undergraduate program operations with data, reporting, and communications.</li>
+            </ul>
+          </article>
+
+          <!-- Employee Benefits Administrator -->
+          <article class="card role" role="listitem">
+            <header>
+              <h3>Employee Benefits Administrator</h3>
+              <p class="subhead"><strong>Sterling Jewelers, Inc.</strong> • <time datetime="2002">2002</time>–<time datetime="2006">2006</time></p>
+            </header>
+            <ul>
+              <li>Developed and maintained MS Access databases to track employee leaves of absence.</li>
+              <li>Produced reports to identify and resolve data errors.</li>
+              <li>Delivered new employee benefits orientation sessions and provided employee support for health insurance and leave policies.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>Copyright © 2008–2025 Elizabeth Marie Crawley</p>
+    <p>Last updated: <span id="lastUpdated"></span></p>
+  </footer>
+
+  <script>
+    (function(){
+      var d = new Date(document.lastModified);
+      document.getElementById('lastUpdated').textContent = d.toLocaleString();
+    })();
+  </script>
+</body>
+</html>
