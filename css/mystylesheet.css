@@ -4,6 +4,7 @@
 :root {
   --bg:        #ffffff;     /* page background */
   --panel:     #ffffff;     /* cards / main panels */
+  --nav-panel: #003976;     /* side navbar background */
   --ink:       #003976;     /* primary text */
   --accent:    #EFAB00;     /* gold: headings, tags, buttons */
   --accent-2:  #003976;     /* deep blue: outlines / emphasis */
@@ -84,7 +85,7 @@ a { color: inherit; }
 .nav-list a {
   display: block;
   text-decoration: none;
-  background: var(--panel);
+  background: var(--nav-panel);
   padding: .65rem .8rem;
   border-radius: 10px;
   border: 1px solid var(--accent);   /* gold outline */
@@ -276,4 +277,5 @@ footer { text-align: center; font-size: .9rem; color: #6c5858; padding: 2rem 1re
 @media (prefers-reduced-motion: reduce){
   * { animation: none !important; transition: none !important; }
 }
+
 
