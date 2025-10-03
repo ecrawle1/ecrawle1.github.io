@@ -122,22 +122,28 @@
 
           <!-- Project 4 -->
           <article class="card" role="listitem">
+
             <figure>
-              <img src="images/projects/banner-automation.png" alt="Flow illustration of nightly data checks and notifications">
+              <!-- Preferred: put the file in images/projects/oracle-sql-batch.png -->
+                <img src="images/projects/oracle-sql-batch.png" alt="Screenshot of an Oracle SQL query I wrote for automated batch posting and population selection output">
+              <figcaption style="margin-top:.35rem;font-size:.9rem;">Oracle SQL used to drive automated batch posting, AppXtender integration, and GLRSLCT-based population selections.
+              </figcaption>
             </figure>
-            <h3>Banner Data Validations &amp; Automations</h3>
-            <p class="summary">Automated data checks and routine tasks to reduce manual effort and improve integrity.</p>
-
+            <h3>Automated Batch Posting, AppXtender Integration &amp; GLRSLCT Selections</h3>
+            <p class="summary">
+              Built Oracle SQL–driven automations for nightly batch posting and downstream processes, integrated with AppXtender,
+              and used GLRSLCT population selections to power Cognos letters and targeted communications.
+            </p>
             <dl class="meta">
-              <dt>Stack</dt><dd>Oracle SQL, Banner 9; (optional) Python for checks</dd>
-              <dt>Role</dt><dd>Design, implementation, SOPs</dd>
-              <dt>Outcome</dt><dd>Reduced exception handling time; fewer downstream errors.</dd>
+              <dt>Stack</dt><dd>Oracle SQL, Ellucian Banner 9, AppXtender, IBM Cognos (GLRSLCT)</dd>
+              <dt>Role</dt><dd>Design &amp; implementation of batch jobs, data flows, and letter generation; SOPs &amp; handoffs</dd>
+              <dt>Outcome</dt><dd>Faster postings, fewer manual steps, traceable document indexing, and consistent letter output.</dd>
             </dl>
-
             <ul class="highlights">
-              <li>Nightly validations with exception queues.</li>
-              <li>Actionable notifications for functional teams.</li>
-              <li>Audit trails and rollback procedures.</li>
+              <li>Designed and tuned SQL used by scheduled jobs for **automated batch posting** and follow-on processes.</li>
+              <li>Integrated with **AppXtender** for document indexing/attachments tied to student and transaction records.</li>
+              <li>Leveraged **GLRSLCT** population selections to feed **Cognos** for letter creation and targeted outreach.</li>
+              <li>Added exception handling, run logs, and SOPs to improve auditability and reduce support time.</li>
             </ul>
           </article>
 
@@ -179,6 +185,7 @@
   </script>
 </body>
 </html>
+
 
 
 
