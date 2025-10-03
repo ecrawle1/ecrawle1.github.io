@@ -1,0 +1,450 @@
+{
+  "home": {
+    "original": {
+      "w": 2048,
+      "h": 512
+    },
+    "files": [
+      {
+        "file": "home-768.jpg",
+        "type": "jpg",
+        "w": 768,
+        "h": 192
+      },
+      {
+        "file": "home-768.webp",
+        "type": "webp",
+        "w": 768,
+        "h": 192
+      },
+      {
+        "file": "home-1200.jpg",
+        "type": "jpg",
+        "w": 1200,
+        "h": 300
+      },
+      {
+        "file": "home-1200.webp",
+        "type": "webp",
+        "w": 1200,
+        "h": 300
+      },
+      {
+        "file": "home-1600.jpg",
+        "type": "jpg",
+        "w": 1600,
+        "h": 400
+      },
+      {
+        "file": "home-1600.webp",
+        "type": "webp",
+        "w": 1600,
+        "h": 400
+      },
+      {
+        "file": "home-2048.jpg",
+        "type": "jpg",
+        "w": 2048,
+        "h": 512
+      },
+      {
+        "file": "home-2048.webp",
+        "type": "webp",
+        "w": 2048,
+        "h": 512
+      }
+    ]
+  },
+  "aboutme": {
+    "original": {
+      "w": 2048,
+      "h": 512
+    },
+    "files": [
+      {
+        "file": "aboutme-768.jpg",
+        "type": "jpg",
+        "w": 768,
+        "h": 192
+      },
+      {
+        "file": "aboutme-768.webp",
+        "type": "webp",
+        "w": 768,
+        "h": 192
+      },
+      {
+        "file": "aboutme-1200.jpg",
+        "type": "jpg",
+        "w": 1200,
+        "h": 300
+      },
+      {
+        "file": "aboutme-1200.webp",
+        "type": "webp",
+        "w": 1200,
+        "h": 300
+      },
+      {
+        "file": "aboutme-1600.jpg",
+        "type": "jpg",
+        "w": 1600,
+        "h": 400
+      },
+      {
+        "file": "aboutme-1600.webp",
+        "type": "webp",
+        "w": 1600,
+        "h": 400
+      },
+      {
+        "file": "aboutme-2048.jpg",
+        "type": "jpg",
+        "w": 2048,
+        "h": 512
+      },
+      {
+        "file": "aboutme-2048.webp",
+        "type": "webp",
+        "w": 2048,
+        "h": 512
+      }
+    ]
+  },
+  "projects": {
+    "original": {
+      "w": 2048,
+      "h": 512
+    },
+    "files": [
+      {
+        "file": "projects-768.jpg",
+        "type": "jpg",
+        "w": 768,
+        "h": 192
+      },
+      {
+        "file": "projects-768.webp",
+        "type": "webp",
+        "w": 768,
+        "h": 192
+      },
+      {
+        "file": "projects-1200.jpg",
+        "type": "jpg",
+        "w": 1200,
+        "h": 300
+      },
+      {
+        "file": "projects-1200.webp",
+        "type": "webp",
+        "w": 1200,
+        "h": 300
+      },
+      {
+        "file": "projects-1600.jpg",
+        "type": "jpg",
+        "w": 1600,
+        "h": 400
+      },
+      {
+        "file": "projects-1600.webp",
+        "type": "webp",
+        "w": 1600,
+        "h": 400
+      },
+      {
+        "file": "projects-2048.jpg",
+        "type": "jpg",
+        "w": 2048,
+        "h": 512
+      },
+      {
+        "file": "projects-2048.webp",
+        "type": "webp",
+        "w": 2048,
+        "h": 512
+      }
+    ]
+  },
+  "skills": {
+    "original": {
+      "w": 2048,
+      "h": 512
+    },
+    "files": [
+      {
+        "file": "skills-768.jpg",
+        "type": "jpg",
+        "w": 768,
+        "h": 192
+      },
+      {
+        "file": "skills-768.webp",
+        "type": "webp",
+        "w": 768,
+        "h": 192
+      },
+      {
+        "file": "skills-1200.jpg",
+        "type": "jpg",
+        "w": 1200,
+        "h": 300
+      },
+      {
+        "file": "skills-1200.webp",
+        "type": "webp",
+        "w": 1200,
+        "h": 300
+      },
+      {
+        "file": "skills-1600.jpg",
+        "type": "jpg",
+        "w": 1600,
+        "h": 400
+      },
+      {
+        "file": "skills-1600.webp",
+        "type": "webp",
+        "w": 1600,
+        "h": 400
+      },
+      {
+        "file": "skills-2048.jpg",
+        "type": "jpg",
+        "w": 2048,
+        "h": 512
+      },
+      {
+        "file": "skills-2048.webp",
+        "type": "webp",
+        "w": 2048,
+        "h": 512
+      }
+    ]
+  },
+  "experience": {
+    "original": {
+      "w": 2048,
+      "h": 512
+    },
+    "files": [
+      {
+        "file": "experience-768.jpg",
+        "type": "jpg",
+        "w": 768,
+        "h": 192
+      },
+      {
+        "file": "experience-768.webp",
+        "type": "webp",
+        "w": 768,
+        "h": 192
+      },
+      {
+        "file": "experience-1200.jpg",
+        "type": "jpg",
+        "w": 1200,
+        "h": 300
+      },
+      {
+        "file": "experience-1200.webp",
+        "type": "webp",
+        "w": 1200,
+        "h": 300
+      },
+      {
+        "file": "experience-1600.jpg",
+        "type": "jpg",
+        "w": 1600,
+        "h": 400
+      },
+      {
+        "file": "experience-1600.webp",
+        "type": "webp",
+        "w": 1600,
+        "h": 400
+      },
+      {
+        "file": "experience-2048.jpg",
+        "type": "jpg",
+        "w": 2048,
+        "h": 512
+      },
+      {
+        "file": "experience-2048.webp",
+        "type": "webp",
+        "w": 2048,
+        "h": 512
+      }
+    ]
+  },
+  "education": {
+    "original": {
+      "w": 2048,
+      "h": 512
+    },
+    "files": [
+      {
+        "file": "education-768.jpg",
+        "type": "jpg",
+        "w": 768,
+        "h": 192
+      },
+      {
+        "file": "education-768.webp",
+        "type": "webp",
+        "w": 768,
+        "h": 192
+      },
+      {
+        "file": "education-1200.jpg",
+        "type": "jpg",
+        "w": 1200,
+        "h": 300
+      },
+      {
+        "file": "education-1200.webp",
+        "type": "webp",
+        "w": 1200,
+        "h": 300
+      },
+      {
+        "file": "education-1600.jpg",
+        "type": "jpg",
+        "w": 1600,
+        "h": 400
+      },
+      {
+        "file": "education-1600.webp",
+        "type": "webp",
+        "w": 1600,
+        "h": 400
+      },
+      {
+        "file": "education-2048.jpg",
+        "type": "jpg",
+        "w": 2048,
+        "h": 512
+      },
+      {
+        "file": "education-2048.webp",
+        "type": "webp",
+        "w": 2048,
+        "h": 512
+      }
+    ]
+  },
+  "community": {
+    "original": {
+      "w": 2048,
+      "h": 512
+    },
+    "files": [
+      {
+        "file": "community-768.jpg",
+        "type": "jpg",
+        "w": 768,
+        "h": 192
+      },
+      {
+        "file": "community-768.webp",
+        "type": "webp",
+        "w": 768,
+        "h": 192
+      },
+      {
+        "file": "community-1200.jpg",
+        "type": "jpg",
+        "w": 1200,
+        "h": 300
+      },
+      {
+        "file": "community-1200.webp",
+        "type": "webp",
+        "w": 1200,
+        "h": 300
+      },
+      {
+        "file": "community-1600.jpg",
+        "type": "jpg",
+        "w": 1600,
+        "h": 400
+      },
+      {
+        "file": "community-1600.webp",
+        "type": "webp",
+        "w": 1600,
+        "h": 400
+      },
+      {
+        "file": "community-2048.jpg",
+        "type": "jpg",
+        "w": 2048,
+        "h": 512
+      },
+      {
+        "file": "community-2048.webp",
+        "type": "webp",
+        "w": 2048,
+        "h": 512
+      }
+    ]
+  },
+  "contact": {
+    "original": {
+      "w": 2048,
+      "h": 512
+    },
+    "files": [
+      {
+        "file": "contact-768.jpg",
+        "type": "jpg",
+        "w": 768,
+        "h": 192
+      },
+      {
+        "file": "contact-768.webp",
+        "type": "webp",
+        "w": 768,
+        "h": 192
+      },
+      {
+        "file": "contact-1200.jpg",
+        "type": "jpg",
+        "w": 1200,
+        "h": 300
+      },
+      {
+        "file": "contact-1200.webp",
+        "type": "webp",
+        "w": 1200,
+        "h": 300
+      },
+      {
+        "file": "contact-1600.jpg",
+        "type": "jpg",
+        "w": 1600,
+        "h": 400
+      },
+      {
+        "file": "contact-1600.webp",
+        "type": "webp",
+        "w": 1600,
+        "h": 400
+      },
+      {
+        "file": "contact-2048.jpg",
+        "type": "jpg",
+        "w": 2048,
+        "h": 512
+      },
+      {
+        "file": "contact-2048.webp",
+        "type": "webp",
+        "w": 2048,
+        "h": 512
+      }
+    ]
+  }
+}
