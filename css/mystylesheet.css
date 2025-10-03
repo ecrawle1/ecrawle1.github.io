@@ -42,10 +42,23 @@ a { color: inherit; }
 /* =========================
    Page header / banner
    ========================= */
-header { padding: 2rem 1rem 1rem; text-align: center; }
-header h1 { margin: 0; font-size: clamp(1.8rem, 2.5vw + 1rem, 3rem); font-weight: 700; }
+/* Make the banner fill the width and remove the generic header padding */
+.site-header { padding: 0; margin: 0; }
 
-.hero picture, .hero img { width: 100%; height: auto; display: block; }
+/* Ensure the picture/img expand full width */
+.site-header picture,
+.site-header img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Optional: keep a nice aspect if your image is very wide */
+.site-header img {
+  /* comment these out if you don't want cropping on very small screens */
+  /* aspect-ratio: 4 / 1; */
+  /* object-fit: cover; */
+}
 
 /* =========================
    Global layout
@@ -263,3 +276,4 @@ footer { text-align: center; font-size: .9rem; color: #6c5858; padding: 2rem 1re
 @media (prefers-reduced-motion: reduce){
   * { animation: none !important; transition: none !important; }
 }
+
