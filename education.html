@@ -8,7 +8,23 @@
   <link rel="stylesheet" href="css/mystylesheet.css">
 </head>
 <body>
-  <header>
+      <header class="site-header">
+    <picture>
+      <source type="image/webp"
+              srcset="pagesimages/banner-768.webp 768w,
+                      pagesimages/banner-1200.webp 1200w,
+                      pagesimages/banner-1600.webp 1600w,
+                      pagesimages/banner-3200.webp 3200w"
+              sizes="100vw">
+      <img src="images/banner-1600.jpg"
+           srcset="pagesimages/banner-768.jpg 768w,
+                   pagesimages/banner-1200.jpg 1200w,
+                   pagesimages/banner-1600.jpg 1600w,
+                   pagesimages/banner-3200.jpg 3200w"
+           sizes="100vw"
+           alt="Leading top of page banner with text that reads Elizabeth Marie Crawley"
+           aria-hidden="true">
+    </picture>
     <h1>Education</h1>
   </header>
 
@@ -149,6 +165,7 @@
   </script>
 </body>
 </html>
+
 
 
 
