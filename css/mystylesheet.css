@@ -9,7 +9,7 @@
   --accent:    #EFAB00;     /* gold: headings, tags, buttons */
   --accent-2:  #003976;     /* deep blue: outlines / emphasis */
   --nav-bg:    #003976;     /* top navbar background */
-  --border:    #003976;     /* dark borders */
+  --border:    #96A0A5;     /* dark grey borders */
 }
 
 /* =========================
@@ -88,7 +88,7 @@ a { color: inherit; }
   background: var(--nav-panel);
   padding: .65rem .8rem;
   border-radius: 10px;
-  border: 1px solid var(--accent);   /* gold outline */
+  border: 1px solid var(--accent-2);   /* gold outline */
   font-weight: 600;
   color: var(--accent);               /* gold text */
 }
@@ -277,6 +277,7 @@ footer { text-align: center; font-size: .9rem; color: #6c5858; padding: 2rem 1re
 @media (prefers-reduced-motion: reduce){
   * { animation: none !important; transition: none !important; }
 }
+
 
 
 
