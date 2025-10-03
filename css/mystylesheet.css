@@ -201,6 +201,64 @@ footer {
   display: block;
 }
 
+/* --- Top nav bar --- */
+.navbar{
+  /* tweak to match your palette */
+  --bg: #0a3a66;         /* deep blue */
+  --fg: #ffd24a;         /* gold text */
+  --hover: rgba(255,255,255,.10);
+  --active: rgba(255,255,255,.18);
+
+  position: sticky;      /* stays at the top after the banner scrolls away */
+  top: 0;
+  z-index: 50;
+  background: var(--bg);
+  box-shadow: 0 2px 6px rgba(0,0,0,.15);
+  border-top: 2px solid rgba(255,255,255,.05);
+  border-bottom: 2px solid rgba(0,0,0,.12);
+}
+
+.navbar__inner{
+  max-width: 1100px;     /* keep aligned with your content width */
+  margin: 0 auto;
+  padding: .5rem 1rem;
+  display: flex;
+  gap: .25rem .5rem;
+  flex-wrap: wrap;       /* wrap to multiple lines on small screens */
+}
+
+.navbar a{
+  color: var(--fg);
+  text-decoration: none;
+  padding: .5rem .75rem;
+  border-radius: .5rem;
+  font-weight: 600;
+  letter-spacing: .02em;
+  line-height: 1.2;
+}
+
+.navbar a:hover,
+.navbar a:focus-visible{
+  background: var(--hover);
+  outline: none;
+}
+
+.navbar a[aria-current="page"]{
+  background: var(--active);
+}
+
+/* Optional: make it horizontally scroll instead of wrapping on very small screens */
+@media (max-width: 480px){
+  .navbar__inner{
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  }
+  .navbar a{ display: inline-block; }
+}
+
 
 
 
