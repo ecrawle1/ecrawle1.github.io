@@ -9,7 +9,7 @@
   --accent:    #EFAB00;     /* gold: headings, tags, buttons */
   --accent-2:  #003976;     /* deep blue: outlines / emphasis */
   --nav-bg:    #003976;     /* top navbar background */
-  --border:    #e5e5e5;     /* light borders */
+  --border:    #003976;     /* dark borders */
 }
 
 /* =========================
@@ -277,5 +277,6 @@ footer { text-align: center; font-size: .9rem; color: #6c5858; padding: 2rem 1re
 @media (prefers-reduced-motion: reduce){
   * { animation: none !important; transition: none !important; }
 }
+
 
 
