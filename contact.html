@@ -99,13 +99,7 @@
       <!-- Form -->
       <section>
         <h2>Send a Message</h2>
-        <!-- 
-          HOW TO WIRE THIS FORM:
-          - For static hosting (GitHub Pages), use a service like Formspree.
-          - Replace ACTION_URL below with your service endpoint.
-          - If you prefer email, you can set action="mailto:YOUR_EMAIL" (less reliable).
-        -->
-        <form action="ACTION_URL" method="POST" class="contact-form" novalidate>
+        <form action="mailto:ecrawle1@kent.edu" method="POST" class="contact-form" novalidate>
           <div class="field">
             <label for="name">Name<span aria-hidden="true"> *</span></label>
             <input id="name" name="name" type="text" autocomplete="name" required>
@@ -126,7 +120,7 @@
             <textarea id="message" name="message" rows="6" required></textarea>
           </div>
 
-          <!-- Optional honeypot field to deter bots -->
+          <!-- Honeypot field to deter bots -->
           <div class="field" aria-hidden="true" hidden>
             <label for="company">Company</label>
             <input id="company" name="company" type="text" tabindex="-1" autocomplete="off">
@@ -137,7 +131,7 @@
 
         <p style="margin-top:.75rem; font-size:.95rem;">
           Prefer email? Click here:
-          <a class="button" href="mailto:elizabeth@example.com">Open Email</a>
+          <a class="button" href="mailto:ecrawle1@kent.edu">Open Email</a>
         </p>
       </section>
     </main>
@@ -156,6 +150,7 @@
   </script>
 </body>
 </html>
+
 
 
 
