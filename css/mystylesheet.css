@@ -1,6 +1,4 @@
-/* =========================
-   Design tokens (edit here)
-   ========================= */
+/* color swatches */
 :root {
   --bg:        #ffffff;     /* page background */
   --panel:     #ffffff;     /* cards / main panels */
@@ -12,9 +10,7 @@
   --border:    #96A0A5;     /* dark grey borders */
 }
 
-/* =========================
-   Base + helpers
-   ========================= */
+/* base sizes and html helpers */
 *, *::before, *::after { box-sizing: border-box; }
 
 html:focus-within { scroll-behavior: smooth; }
@@ -40,13 +36,12 @@ a { color: inherit; }
   clip: rect(0 0 0 0); overflow: hidden; white-space: nowrap;
 }
 
-/* =========================
-   Page header / banner
-   ========================= */
-/* Make the banner fill the width and remove the generic header padding */
+/* Page header / banner */
+
 .site-header { padding: 0; margin: 0; }
 
-/* Ensure the picture/img expand full width */
+/* picture/img expand full width */
+
 .site-header picture,
 .site-header img {
   display: block;
@@ -54,16 +49,14 @@ a { color: inherit; }
   height: auto;
 }
 
-/* Optional: keep a nice aspect if your image is very wide */
+/* Keep a nice aspect if your image is very wide */
 .site-header img {
-  /* comment these out if you don't want cropping on very small screens */
-  /* aspect-ratio: 4 / 1; */
-  /* object-fit: cover; */
+  /* change here by commenting these out if cropping on very small screens */
+  aspect-ratio: 4 / 1; 
+  object-fit: cover; 
 }
 
-/* =========================
-   Global layout
-   ========================= */
+/* Global layout */
 /* Use either .wrap OR .layout in HTML; both map to the same grid */
 .wrap, .layout {
   max-width: 1100px;
@@ -94,7 +87,7 @@ a { color: inherit; }
 }
 
 .sidenav a:hover, .sidenav a:focus-visible,
-.nav-list a:hover, .nav-list a:focus-visible { outline: 2px solid var(--accent-2); }
+.nav-list a:hover, .nav-list a:focus-visible { outline: 2px solid var(--accent); }
 
 .sidenav a[aria-current="page"],
 .nav-list a[aria-current="page"] { outline: 2px solid var(--accent-2); }
@@ -277,6 +270,7 @@ footer { text-align: center; font-size: .9rem; color: #6c5858; padding: 2rem 1re
 @media (prefers-reduced-motion: reduce){
   * { animation: none !important; transition: none !important; }
 }
+
 
 
 
