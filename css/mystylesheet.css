@@ -87,7 +87,7 @@ a { color: inherit; }
 }
 
 .sidenav a:hover, .sidenav a:focus-visible,
-.nav-list a:hover, .nav-list a:focus-visible { outline: 2px solid var(--accent); }
+.nav-list a:hover, .nav-list a:focus-visible { outline: 2px solid var(--hover); }
 
 .sidenav a[aria-current="page"],
 .nav-list a[aria-current="page"] { outline: 2px solid var(--accent-2); }
@@ -132,9 +132,7 @@ footer { text-align: center; font-size: .9rem; color: #6c5858; padding: 2rem 1re
   .intro { grid-template-columns: 1fr; text-align: center; }
 }
 
-/* =========================
-   Top (primary) navbar
-   ========================= */
+/* Top (primary) navbar */
 .navbar{
   --bg: #0a3a66;        /* deep blue bar */
   --fg: #ffd24a;        /* gold links */
@@ -176,9 +174,7 @@ footer { text-align: center; font-size: .9rem; color: #6c5858; padding: 2rem 1re
   .navbar a{ display: inline-block; }
 }
 
-/* =========================
-   Cards / projects
-   ========================= */
+/* Cards / projects */
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -227,9 +223,7 @@ footer { text-align: center; font-size: .9rem; color: #6c5858; padding: 2rem 1re
 .button:hover,
 .button:focus-visible { outline: 2px solid var(--accent-2); }
 
-/* =========================
-   Contact form
-   ========================= */
+/* Contact form */
 .contact-form { max-width: 720px; }
 .field { display: grid; gap: .35rem; margin: .6rem 0; }
 .field label { font-weight: 600; color: var(--accent); }
@@ -241,9 +235,7 @@ footer { text-align: center; font-size: .9rem; color: #6c5858; padding: 2rem 1re
 }
 .field input:focus, .field textarea:focus { outline: 2px solid var(--accent-2); }
 
-/* =========================
-   Tag pills
-   ========================= */
+/* Tag pills */
 .tags { display: flex; flex-wrap: wrap; gap: .5rem; margin: .25rem 0 1rem; }
 .tag {
   display: inline-block;
@@ -255,21 +247,18 @@ footer { text-align: center; font-size: .9rem; color: #6c5858; padding: 2rem 1re
   color: var(--accent);
 }
 
-/* =========================
-   Responsive video
-   ========================= */
+/* Responsive video */
 .video-embed iframe {
   width: 100%;
   aspect-ratio: 16 / 9;
   border: 0; display: block;
 }
 
-/* =========================
-   Motion preference
-   ========================= */
+/* Motion preference */
 @media (prefers-reduced-motion: reduce){
   * { animation: none !important; transition: none !important; }
 }
+
 
 
 
