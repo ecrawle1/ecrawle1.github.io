@@ -8,7 +8,7 @@
   --ink:       #003976;     /* primary text */
   --accent:    #EFAB00;     /* gold: headings, tags, buttons */
   --accent-2:  #003976;     /* deep blue: outlines / emphasis */
-  --nav-bg:    #003976;     /* top navbar background */
+  --nav-bg:    #2c8ecd;     /* top navbar background */
   --border:    #96A0A5;     /* dark grey borders */
 }
 
@@ -277,6 +277,7 @@ footer { text-align: center; font-size: .9rem; color: #6c5858; padding: 2rem 1re
 @media (prefers-reduced-motion: reduce){
   * { animation: none !important; transition: none !important; }
 }
+
 
 
 
