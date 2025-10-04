@@ -87,7 +87,7 @@ a { color: inherit; }
 }
 
 .sidenav a:hover, .sidenav a:focus-visible,
-.nav-list a:hover, .nav-list a:focus-visible { outline: 2px solid var(--hover); }
+.nav-list a:hover, .nav-list a:focus-visible { outline: 2px solid var(--accent-2); }
 
 .sidenav a[aria-current="page"],
 .nav-list a[aria-current="page"] { outline: 2px solid var(--accent-2); }
@@ -134,8 +134,8 @@ footer { text-align: center; font-size: .9rem; color: #6c5858; padding: 2rem 1re
 
 /* Top (primary) navbar */
 .navbar{
-  --bg: #0a3a66;        /* deep blue bar */
-  --fg: #ffd24a;        /* gold links */
+  --bg: #2c8ecd;        /* light blue bar */
+  --fg: #EFAB00;        /* gold links */
   --hover: rgba(255,255,255,.10);
   --active: rgba(255,255,255,.18);
 
@@ -258,6 +258,7 @@ footer { text-align: center; font-size: .9rem; color: #6c5858; padding: 2rem 1re
 @media (prefers-reduced-motion: reduce){
   * { animation: none !important; transition: none !important; }
 }
+
 
 
 
