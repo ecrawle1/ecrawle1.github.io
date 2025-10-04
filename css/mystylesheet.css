@@ -36,25 +36,71 @@ a { color: inherit; }
   clip: rect(0 0 0 0); overflow: hidden; white-space: nowrap;
 }
 
-/* Page header / banner */
-
-.site-header { padding: 0; margin: 0; }
-
-/* picture/img expand full width */
-
-.site-header picture,
-.site-header img {
-  display: block;
-  width: 100%;
-  height: auto;
+/* Header */
+.site-header.css-banner{
+  /* gradient base */
+  background:
+    linear-gradient(110deg, rgba(255,255,255,.04) 0 55%, transparent 55% 100%),
+    linear-gradient(to right, var(--ink), var(--nav-panel));
+  color:#fff;
+  border-radius: 18px;
+  margin: 0 auto 1rem;
+  max-width: 1100px;        
+  padding: 2.25rem 1.25rem;
+  position: relative;
+  overflow: hidden;
 }
 
-/* Keep a nice aspect if your image is very wide */
-.site-header img {
-  /* change here by commenting these out if cropping on very small screens */
-  aspect-ratio: 4 / 1; 
-  object-fit: cover; 
+/* subtle right-side chevrons */
+.site-header.css-banner::after{
+  content:"";
+  position:absolute; inset:0;
+  background:
+    linear-gradient(to right,
+      transparent 0 58%,
+      rgba(255,255,255,.06) 58% 64%,
+      transparent 64% 70%,
+      rgba(255,255,255,.06) 70% 76%,
+      transparent 76% 100%
+    );
+  pointer-events:none;
 }
+
+.header-inner{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.brand a{
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 800;
+  letter-spacing: .2px;
+  font-size: 1.05rem;
+}
+
+.page-title{
+  margin:.35rem 0 0;
+  font-weight: 800;
+  line-height: 1.1;
+  font-size: 2rem;
+}
+
+/* optional subtitle */
+.tagline{
+  margin:.25rem 0 0;
+  opacity:.9;
+}
+
+/* Larger screens */
+@media (min-width: 768px){
+  .site-header.css-banner{ padding: 3rem 2rem; }
+  .page-title{ font-size: 2.4rem; }
+}
+
+/* Remove image-specific rules when using css-banner */
+.site-header.css-banner picture,
+.site-header.css-banner img{ display:none; }
 
 /* Global layout */
 /* Use either .wrap OR .layout in HTML; both map to the same grid */
@@ -258,6 +304,7 @@ footer { text-align: center; font-size: .9rem; color: #6c5858; padding: 2rem 1re
 @media (prefers-reduced-motion: reduce){
   * { animation: none !important; transition: none !important; }
 }
+
 
 
 
