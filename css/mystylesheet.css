@@ -1,3 +1,4 @@
+/* === Shapes-only banner system ========================================= */
 /* color swatches and sizing */
 :root {
   --bg:        #ffffff;     /* page background */
@@ -8,8 +9,36 @@
   --accent-2:  #003976;     /* deep blue: outlines / emphasis */
   --nav-bg:    #2c8ecd;     /* top navbar background */
   --border:    #96A0A5;     /* dark grey borders */
+  --blue:       #002b5c;
+  --light-blue: #0072ce;
+  --gold:       #ffcc00;
+  --white:      #ffffff;
   --container: min(1280px, 100% - 2rem); 
 }
+
+/* Banner grid */
+.banner{
+  display: grid;
+  grid-template-columns: repeat(var(--cols), 1fr);
+  height: var(--banner-h);
+  width: 100%;
+  --banner-h: 80px;        /* banner strip height */
+  --cols: 8;               /* number of tiles */
+  --unit: 20px;            /* pattern cell size */
+}
+
+/* Base tile style */
+.tile{
+  position: relative;
+  overflow: hidden;
+  inline-size: 100%;
+  block-size: 100%;
+  background-color: var(--blue);
+}
+
+/* ——— Patterns ——— */
+
+/* Circle pattern (gold bullseye + ring on blue) *
 
 /* base sizes and html helpers */
 *, *::before, *::after { box-sizing: border-box; }
@@ -304,14 +333,4 @@ footer { text-align: center; font-size: .9rem; color: #6c5858; padding: 2rem 1re
 @media (prefers-reduced-motion: reduce){
   * { animation: none !important; transition: none !important; }
 }
-
-
-
-
-
-
-
-
-
-
 
