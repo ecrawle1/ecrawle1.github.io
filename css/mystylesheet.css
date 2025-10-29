@@ -38,7 +38,86 @@
 
 /* ——— Patterns ——— */
 
-/* Circle pattern (gold bullseye + ring on blue) *
+/* Circle pattern (gold bullseye + ring on blue) */
+
+.circle{
+  background:
+    radial-gradient(circle at 50% 50%, var(--gold) 25%, transparent 26%) center/100% 100% no-repeat,
+    radial-gradient(closest-side, transparent 65%, var(--gold) 66% 66%, transparent 67%) center/100% 100% no-repeat,
+    var(--blue);
+}
+
+/* Half triangle (diagonal split) */
+.half{
+  background: linear-gradient(135deg, var(--light-blue) 50%, var(--gold) 0);
+}
+
+/* Triangles (diagonal hatching) */
+.triangles{
+  background:
+    repeating-linear-gradient(
+      45deg,
+      var(--white) 0 calc(var(--unit) * 1),
+      transparent calc(var(--unit) * 1) calc(var(--unit) * 2)
+    ),
+    var(--blue);
+}
+
+/* Checker (efficient via conic-gradient) */
+.checker{
+  --size: calc(var(--unit) * 2);
+  background:
+    conic-gradient(
+      from 90deg,
+      var(--gold) 0 90deg,
+      var(--blue) 0 180deg,
+      var(--gold) 0 270deg,
+      var(--blue) 0 360deg
+    );
+  background-size: var(--size) var(--size);
+}
+
+/* Stripes (vertical) */
+.stripes{
+  background:
+    repeating-linear-gradient(
+      90deg,
+      var(--white) 0 calc(var(--unit) * 1),
+      var(--blue)  calc(var(--unit) * 1) calc(var(--unit) * 2)
+    );
+}
+
+/* Diagonals (\\ hatch) */
+.diagonals{
+  background:
+    repeating-linear-gradient(
+      135deg,
+      var(--white) 0 calc(var(--unit) * 1),
+      var(--blue)  calc(var(--unit) * 1) calc(var(--unit) * 2)
+    );
+}
+
+/* Vertical bars (gold/blue) */
+.bars{
+  background:
+    repeating-linear-gradient(
+      90deg,
+      var(--gold) 0 calc(var(--unit) * 0.5),
+      var(--blue)  calc(var(--unit) * 0.5) calc(var(--unit) * 1)
+    );
+}
+
+/* Arc (light-blue circle bleeding from left with gold edge) */
+.arc{
+  background:
+    radial-gradient(circle at left center, var(--light-blue) 40%, var(--gold) 41% 41%, transparent 42%),
+    var(--blue);
+}
+
+/* Optional: quick density tweak for smaller screens */
+@media (max-width: 560px){
+  :root{ --unit: 14px; }
+}
 
 /* base sizes and html helpers */
 *, *::before, *::after { box-sizing: border-box; }
